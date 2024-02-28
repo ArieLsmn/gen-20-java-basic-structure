@@ -21,7 +21,7 @@ public class Segitiga {
 
 
     public static void main(String[] args) {
-
+        System.out.println("Print segitiga dengan variabel atribut class");
         printSegitiga(input);
         System.out.println();
 
