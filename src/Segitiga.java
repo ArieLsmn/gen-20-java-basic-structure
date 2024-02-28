@@ -2,15 +2,17 @@ import java.util.Scanner;
 
 public class Segitiga {
 
-    public static void Segitiga(int besar){
+    static int input=5; //atribut
+
+    public static void printSegitiga(int lebar){
 
 
-        for(int i=0;i<besar;i++) {
+        for(int i=0;i<lebar;i++) {
 
-            for (int j = 0; j <= besar-i; j++) {
+            for (int j = 0; j <= lebar-i; j++) {
                 System.out.print(" ");
             }
-            for (int k = 0; k <= besar-(besar-i); k++) {
+            for (int k = 0; k <= lebar-(lebar-i); k++) {
                 System.out.print("* ");
             }
             System.out.println();
@@ -19,11 +21,14 @@ public class Segitiga {
 
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Masukkan lebar segitiga:");
-        int besar = in.nextInt();
-        Segitiga(besar);
 
+        printSegitiga(input);
+        System.out.println();
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("Masukkan lebar segitiga selanjutnya:");
+        int a = in.nextInt();
+        printSegitiga(a);
 
     }
 }

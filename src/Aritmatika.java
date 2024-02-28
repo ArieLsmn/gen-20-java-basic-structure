@@ -1,23 +1,30 @@
-import java.util.Scanner;
+
 
 public class Aritmatika {
 
-    public static void Aritmatika(int a, int b){
+    int a = 10; //atribut
+    int b = 2;
 
+    public Aritmatika(){
+    }
+    public Aritmatika(int a, int b){
+        this.a=a;
+        this.b=b;
+
+    }
+    public void hasilAritmatika(){
         System.out.println(a+" + "+b+" = "+(a+b));
         System.out.println(a+" - "+b+" = "+(a-b));
         System.out.println(a+" x "+b+" = "+(a*b));
         System.out.println(a+" / "+b+" = "+(a/b));
     }
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Masukkan angka pertama:");
-        int a = in.nextInt();
+        Aritmatika test1 = new Aritmatika();
 
-        System.out.println("Masukkan angka kedua:");
-        int b = in.nextInt();
+        test1.hasilAritmatika();
 
-        Aritmatika(a,b);
+        Aritmatika test2 = new Aritmatika(9,3);
+        test2.hasilAritmatika();
 
     }
 }

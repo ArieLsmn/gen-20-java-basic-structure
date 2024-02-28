@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class GanjilGenap {
 
-    public static String GanjilGenap(int a, int b){
+    public static String jawabanSoal(int a, int b){
         if((a+b+1)%2==0) return "Genap";
         else return "Ganjil";
 
@@ -15,6 +15,6 @@ public class GanjilGenap {
         System.out.println("Masukkan angka kedua:");
         int b = in.nextInt();
 
-        System.out.println(GanjilGenap(a,b));
+        System.out.println(jawabanSoal(a,b));
     }
 }
