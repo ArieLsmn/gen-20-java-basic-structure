@@ -9,15 +9,15 @@ public class GanjilGenap {
     }
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Masukkan angka pertama:");
+        System.out.println("Masukkan angka pertama (A):");
         int a = in.nextInt();
 
-        System.out.println("Masukkan angka kedua:");
+        System.out.println("Masukkan angka kedua (B):");
         int b = in.nextInt();
 
         in.close();
 
-        System.out.println("Sum: "+(a+b+1));
+        System.out.println("A + B +1 = "+(a+b+1));
         System.out.println("Hasil: "+jawabanSoal(a,b));
     }
 }

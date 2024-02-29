@@ -21,9 +21,9 @@ public class Aritmatika {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        System.out.println("Masukkan angka pertama (a):");
+        System.out.println("Masukkan angka pertama:");
         int x = in.nextInt();
-        System.out.println("Masukkan angka kedua (b):");
+        System.out.println("Masukkan angka kedua:");
         int y = in.nextInt();
         Aritmatika test2 = new Aritmatika(x,y);
         test2.hasilAritmatika();
