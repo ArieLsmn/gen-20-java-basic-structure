@@ -2,33 +2,38 @@ import java.util.Scanner;
 
 public class ContohAtribut {
 
-    static String nama1 = "Ari";
-    static int usia1 = 25;
+    String nama = "Ari";
+    int usia = 25;
 
-    String nama2 = "Bob";
-    int usia2 = 27;
+    static String nama2 = "Bob";
+    static int usia2 = 26;
 
     public ContohAtribut(){
 
     }
+    public ContohAtribut(String nama, int usia){
+        this.nama=nama;
+        this.usia=usia;
+    }
 
     public static void main(String[] args) {
 
-        System.out.println("Name: "+nama1);
-        System.out.println("Age: "+usia1);
+        System.out.println("Name static: "+nama2);
+        System.out.println("Age static: "+usia2);
 
-        ContohAtribut test = new ContohAtribut();
+        ContohAtribut test1 = new ContohAtribut();
 
-        System.out.println("Name non static: "+test.nama2);
-        System.out.println("Age non static: "+test.usia2);
+        System.out.println("Name non static: "+test1.nama);
+        System.out.println("Age non static: "+test1.usia);
 
         Scanner in = new Scanner(System.in);
         System.out.println("Input name: ");
-        nama1 = in.nextLine();
+        String nama = in.nextLine();
         System.out.println("Input age: ");
-        usia1 = in.nextInt();
+        int usia = in.nextInt();
 
-        System.out.println("New name: "+nama1);
-        System.out.println("New age: "+usia1);
+        ContohAtribut test2 = new ContohAtribut(nama,usia);
+        System.out.println("New name: "+test2.nama);
+        System.out.println("New age: "+test2.usia);
     }
 }

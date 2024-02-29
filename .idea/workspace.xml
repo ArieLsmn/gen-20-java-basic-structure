@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e4b5ddf-3295-40f2-91fd-9aabd38acd5a" name="Changes" comment="Commit 3">
-      <change beforePath="$PROJECT_DIR$/src/Aritmatika.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aritmatika.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ContohAtribut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContohAtribut.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709175457921</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit 3">
+      <created>1709175556845</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709175556845</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Commit 3">
+      <created>1709175655344</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709175655344</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
