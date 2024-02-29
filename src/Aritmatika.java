@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Aritmatika {
 
-    int a = 0; //atribut
-    int b = 0;
+    double a = 1; //atribut
+    double b = 1;
 
     public Aritmatika(){
     }
@@ -28,6 +28,8 @@ public class Aritmatika {
         Aritmatika test2 = new Aritmatika(x,y);
         test2.hasilAritmatika();
         System.out.println();
+
+        in.close();
 
     }
 }

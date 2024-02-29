@@ -15,6 +15,9 @@ public class GanjilGenap {
         System.out.println("Masukkan angka kedua:");
         int b = in.nextInt();
 
-        System.out.println(jawabanSoal(a,b));
+        in.close();
+
+        System.out.println("Sum: "+(a+b+1));
+        System.out.println("Hasil: "+jawabanSoal(a,b));
     }
 }
