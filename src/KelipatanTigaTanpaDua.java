@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class KelipatanTiga {
+public class KelipatanTigaTanpaDua {
 
     public static void main(String[] args) {
 
