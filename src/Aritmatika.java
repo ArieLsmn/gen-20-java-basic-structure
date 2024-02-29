@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Aritmatika {
 
-    int a = 10; //atribut
-    int b = 2;
+    int a = 0; //atribut
+    int b = 0;
 
     public Aritmatika(){
     }
@@ -19,10 +19,6 @@ public class Aritmatika {
         System.out.println(a+" / "+b+" = "+(a/b));
     }
     public static void main(String[] args) {
-        System.out.println("Print aritmatika dengan variabel atribut class a=10, b=2");
-        Aritmatika test1 = new Aritmatika();
-        test1.hasilAritmatika();
-        System.out.println();
 
         Scanner in = new Scanner(System.in);
         System.out.println("Masukkan angka pertama (a):");

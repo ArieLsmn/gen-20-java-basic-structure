@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Segitiga {
 
-    static int input=5; //atribut
 
     public static void printSegitiga(int lebar){
 
@@ -21,9 +20,6 @@ public class Segitiga {
 
 
     public static void main(String[] args) {
-        System.out.println("Print segitiga dengan variabel atribut class");
-        printSegitiga(input);
-        System.out.println();
 
         Scanner in = new Scanner(System.in);
         System.out.println("Masukkan lebar segitiga selanjutnya:");
