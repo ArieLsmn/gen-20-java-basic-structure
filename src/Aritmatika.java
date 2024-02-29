@@ -27,7 +27,6 @@ public class Aritmatika {
         int y = in.nextInt();
         Aritmatika test2 = new Aritmatika(x,y);
         test2.hasilAritmatika();
-        System.out.println();
 
         in.close();
 

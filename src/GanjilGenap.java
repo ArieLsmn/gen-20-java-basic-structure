@@ -17,7 +17,7 @@ public class GanjilGenap {
 
         in.close();
 
-        System.out.println("A + B +1 = "+(a+b+1));
+        System.out.println("A + B + 1 = "+(a+b+1));
         System.out.println("Hasil: "+jawabanSoal(a,b));
     }
 }

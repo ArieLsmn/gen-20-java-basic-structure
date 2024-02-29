@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class ContohAtribut {
 
-    static String nama1 = "Helloworld";
-    static int usia1 = 123;
+    static String nama1 = "Ari";
+    static int usia1 = 25;
 
-    String nama2 = "Halo halo";
-    int usia2 = 777;
+    String nama2 = "Bob";
+    int usia2 = 27;
 
     public ContohAtribut(){
 
