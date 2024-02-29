@@ -19,7 +19,7 @@ public class JumlahN {
 
 
         Scanner in= new Scanner(System.in);
-        System.out.println("Input berapa banyak angka yang ditampilkan:");
+        System.out.println("Input N berupa angka terakhir di deret:");
         int n = in.nextInt();
 
         System.out.println(deretJumlah(n));
