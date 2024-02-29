@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e4b5ddf-3295-40f2-91fd-9aabd38acd5a" name="Changes" comment="Commit 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ContohAtribut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContohAtribut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GanjilGenap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GanjilGenap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709174957679</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit 3">
+      <created>1709175322677</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709175322677</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
