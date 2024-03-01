@@ -1,3 +1,4 @@
+//kelas hari 4
 import java.util.Scanner;
 
 public class JumlahN {

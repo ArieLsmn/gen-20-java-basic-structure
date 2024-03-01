@@ -1,3 +1,4 @@
+//kelas hari 4
 import java.util.Scanner;
 public class KelipatanTigaTanpaDua {
 
@@ -10,7 +11,7 @@ public class KelipatanTigaTanpaDua {
 
 
         Scanner in= new Scanner(System.in);
-        System.out.println("Input berapa banyak angka yang ditampilkan:");
+        System.out.println("Input berapa banyak angka kelipatan 3 tanpa 2 yang ditampilkan:");
         int n = in.nextInt();
         int i=0;
         int x=3;
