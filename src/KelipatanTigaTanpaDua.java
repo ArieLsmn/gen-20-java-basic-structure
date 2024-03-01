@@ -1,6 +1,11 @@
 import java.util.Scanner;
 public class KelipatanTigaTanpaDua {
 
+
+    public static boolean mod3Not2(int x){
+        return x % 2 != 0;
+    }
+
     public static void main(String[] args) {
 
 
@@ -10,7 +15,7 @@ public class KelipatanTigaTanpaDua {
         int i=0;
         int x=3;
         while(i<n){
-            if(x%2!=0) {
+            if(mod3Not2(x)) {
                 i++;
                 System.out.print(x + " ");
             }
